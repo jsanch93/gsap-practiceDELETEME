@@ -5,3 +5,5 @@
 
 ## Citations
 * GSAP Scroll trigger 
+* font share
+* Openprops
