@@ -1,4 +1,6 @@
 @import url('bevellier.css');
+@import "https://unpkg.com/open-props";
+
 
 body,html {
     overflow-x:hidden;
@@ -16,14 +18,14 @@ section {
 	  height: 100vh;
 }
 .panel-1 {
-  background:#423E3B;  
-}
-.panel-2 {
-  background:#88498F;
-}
-.panel-3 {
-  background: red;
-}
+    background: var(--gradient-15);  
+  }
+  .panel-2 {
+    background: var(--gradient-2);
+  }
+  .panel-3 {
+    background: var(--gradient-3);
+  }
 
 h1 {
     font-size:4rem;
